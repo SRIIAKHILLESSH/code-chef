@@ -4,4 +4,4 @@ if x%5==0:
         y-=(x+0.50)
         print(y)
 else:
-    print(y)
+    print("{:.2f}".format(y))
