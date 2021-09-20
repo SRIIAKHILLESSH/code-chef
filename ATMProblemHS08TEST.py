@@ -1,10 +1,7 @@
-x = input()
-y = input()
-m = input()
-sum = (x)/(m)
-
-if sum == 0:
-    sum = sum + 0.50
-while(sum > 0):
-    y = y - sum
+x,y=map(float,input().split())
+if x%5==0:
+    if (x+0.50)<=y:
+        y-=(x+0.50)
+        print(y)
+else:
     print(y)
